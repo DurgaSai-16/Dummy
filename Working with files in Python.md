@@ -1,3 +1,4 @@
+![files](https://user-images.githubusercontent.com/85128689/125448683-4d8d9845-d20a-4898-b2aa-4a84bf24f241.jpeg)
 # File handling with Python
 -----------------------------------------------
 **File**:  
@@ -30,6 +31,7 @@ Python consists of various built in functions and methods to manipulate files. T
 - **The Open() Function:**
     - Python built in open() function is used to open the file for reading or writing to it.
     - The syntax of **open()** is:
+    
     |Syntax||
     |-|-|
     |**fileObj= open(file_name[,access_mode])**||  
@@ -40,11 +42,12 @@ Python consists of various built in functions and methods to manipulate files. T
     - The close() method is used to close the file object.
     - Once a file object is closed, you cannot further read from or write into the file that is associated with this file object.
     - The Syntax of **close()** is:  
-    |Syntax||
-    |-|-|
-    |fileobj.close()||
+    |Syntax:|
+    |-|
+    |fileobj.close()|
     
-- **Access Modes in Python:**  
+- **Access Modes in Python:**
+  
 |Modes|Purpose|
 |-|-|
 |r|Opens the file in read-only mode|
@@ -64,6 +67,7 @@ If no mode is specified then 'r' is considered as default mode.
 
 
 - **The File Object Attributes:**  
+
 |Attribute|Information Obtained|
 |-|-|
 |file.mode|it returns the access mode in which file is opened|
@@ -175,3 +179,4 @@ print("File has been opened in",file.mode,"mode")
     File is closed False
     File has been opened in wb mode
     
+![Tqq](https://user-images.githubusercontent.com/85128689/123909514-c9dda500-d996-11eb-8808-f2156178daac.jpeg)
