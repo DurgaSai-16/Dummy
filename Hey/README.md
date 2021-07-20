@@ -6,6 +6,7 @@ The 2D shape Area Calculator is basic python script enables us to easily calcula
 ## Short description
 - This code is used find area of respective 2D shape by giving specified inputs. (Eg: If our 2D Shape is circle.To find Area of cirlce required input will be it's radius)
 - **Libraries Imported:**  `math`
+
 ## Workflow
 - Choose one option from the following 2D shape for which you need to find area
   - `Circle`
@@ -24,6 +25,12 @@ The 2D shape Area Calculator is basic python script enables us to easily calcula
   - If `Trapezium` is opted then, required are `bases` and `height`
   - If `Ellipse` is opted then, required inputs are `axis`
 - Based on the shape opted by the user, it executes that particular block of code and takes input from user and gives Area as output.
+
+## Compilation Steps
+- Download "2D_shapes_area_calculator.py" file.
+- Run "2D_shapes_area_calculator.py" file.
+- Find the area of any 2D shape by entering required inputs properly.
+- For more information on import statements, refer to "requirements.txt".
 
 ## Output
 - **Area of Circle**
