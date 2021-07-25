@@ -1,4 +1,6 @@
 # PyTorch 
+![PyTorch](https://user-images.githubusercontent.com/85128689/126911074-0af5f52e-3d7e-41f4-b052-cdf11edaacdb.png)
+
 ----------------------------
 
 ## Installation
