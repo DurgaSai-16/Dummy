@@ -27,7 +27,7 @@ def monitor():
 
         if percent < 40: #Low battery
             if plugged == False:
-                processThread = threading.Thread(target=show_notification, args=( "Your Battery at " + str(percent) + "% Please plug the cable",))  # <- note extra ','
+                processThread = threading.Thread(target=show_notification, args=( "Your Battery at " + str(percent) + "% Please plug the cable",))  #Note extra ',' (if you don't keep thos you won't be getting message notification.)
                 processThread.start()
                 x.say("Hey Durga Sai, Your Battery at " + str(percent) + "% Please plug the cable")
                 x.runAndWait()
@@ -40,7 +40,7 @@ def monitor():
                 x.runAndWait()
         elif percent >= 90: #Over Charging
             if plugged == True:
-                processThread = threading.Thread(target=show_notification, args=("Your Battery at " + str(percent) + "% Please unplug the cable"))
+                processThread = threading.Thread(target=show_notification, args=("Your Battery at " + str(percent) + "% Please unplug the cable",))
                 processThread.start()
                 x.say("Hey Durga Sai, Your Battery at", + str(percent) + "% Please detach the cable")
                 x.runAndWait()
